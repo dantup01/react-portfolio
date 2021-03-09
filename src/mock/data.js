@@ -2,38 +2,38 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Daniel Tuppen | Developer',
+  lang: 'en',
+  description: 'Welcome to my portfolio website',
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Daniel Tuppen',
+  subtitle: 'React & Rails Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'me.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1z8oHuGNimwUWa_vL9lFXSS6e7JFa-UaM/view?usp=sharing',
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'screenshot-garden-escape.jpg',
+    title: 'Garden Escapes',
+    info: 'A team rails app developed for the user to host or rent their favourite gardens.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://garden-escape.herokuapp.com/',
+    repo: 'https://github.com/dantup01/garden-escape',
   },
   {
     id: nanoid(),
