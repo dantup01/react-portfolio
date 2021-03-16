@@ -38,15 +38,14 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                  {paragraphOne || 'I’m a London-based web developer. My passion for tech has lead me to embark on a web development bootcamp at Le Wagon where I have been building solo and team projects. I love the creativity of putting your thoughts into applications.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Working knowledge and experience of the following technologies: Ruby, Ruby on Rails, Python, Django, HTML, CSS, Bootstrap, JavaScript as well as working knowledge of databases such as PostgreSQL, and building RESTful APIs with node.js and express.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || 'I am currently advancing my skills in JavaScript, React and node.js.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
