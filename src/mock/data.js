@@ -59,10 +59,10 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'daniel.tuppen1@gmail.com',
 };
 
-// FOOTER DATA
+// FOOTER DATAs
 export const footerData = {
   networks: [
     {
