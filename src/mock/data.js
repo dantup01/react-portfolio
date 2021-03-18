@@ -28,7 +28,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'screenshot-garden-escape.jpg',
+    img: 'screenshot-open-rehearsal-crop.jpg',
+    title: 'Open Rehearsal',
+    info: 'A team rails app developed for musicians to connect, find local rehearsals and play the music they love.',
+    info2: '',
+    url: 'www.openrehearsal.co.uk',
+    repo: 'https://github.com/dantup01/open-rehearsal',
+  },
+  {
+    id: nanoid(),
+    img: 'screenshot-garden-escape.png',
     title: 'Garden Escapes',
     info: 'A team rails app developed for the user to host or rent their favourite gardens.',
     info2: '',
@@ -37,21 +46,21 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'screenshot-instadans.jpg',
+    title: 'InstaDans',
+    info: 'A personal project creating a clone of Instagram for users to post pictures.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://instadans.herokuapp.com/',
+    repo: 'https://github.com/dantup01/instadans',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'screenshot-cocktail-experience.png',
+    title: 'Cocktail Experience',
+    info: 'Solo rails app designed for the user to store a collection of their favourite cocktails.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://dans-cocktail-experience.herokuapp.com/',
+    repo: 'https://github.com/dantup01/rails-cocktail-party',
   },
 ];
 

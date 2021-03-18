@@ -1,6 +1,6 @@
 #about {
-  background-color: #81A6BA;
-  background-image: linear-gradient(135deg, #81A6BA 0%, #81A6BA 100%);
+  background-color: #508CA4;
+  background-image: linear-gradient(135deg, #508CA4 0%, #508CA4 100%);
   color: $white-color;
   height: 100%;
   border-top: 0px;
@@ -25,6 +25,7 @@
       justify-content: center;
       height: 100%;
       object-fit: cover;
+      border-radius: 50%;
 
       @include respond(tab-port) {
         padding-bottom: 6.4rem;
