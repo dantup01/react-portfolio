@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "Daniel Tuppen's Portfolio",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A list of my projects",
   "version": "0.1.0",
   "license": "MIT",
   "engines": {

@@ -36,8 +36,8 @@ const Projects = () => {
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
-                    duration={1000}
-                    delay={500}
+                    duration={400}
+                    delay={50}
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
@@ -62,7 +62,7 @@ const Projects = () => {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn light-blue-text"
+                          className="cta-btn dark-blue-text"
                           href={repo}
                         >
                           Source Code
@@ -75,8 +75,8 @@ const Projects = () => {
                   <Fade
                     right={isDesktop}
                     bottom={isMobile}
-                    duration={1000}
-                    delay={1000}
+                    duration={400}
+                    delay={50}
                     distance="30px"
                   >
                     <div className="project-wrapper__image">
