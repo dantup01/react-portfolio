@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Daniel Tuppen',
-  subtitle: 'React & Rails Developer',
+  subtitle: 'React, Rails & JS Developer',
   cta: '',
 };
 
@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'Open Rehearsal',
     info: 'A team rails app developed for musicians to connect, find local rehearsals and play the music they love.',
     info2: '',
-    url: 'www.openrehearsal.co.uk',
+    url: 'http://www.openrehearsal.co.uk',
     repo: 'https://github.com/dantup01/open-rehearsal',
   },
   {
@@ -52,6 +52,15 @@ export const projectsData = [
     info2: '',
     url: 'https://instadans.herokuapp.com/',
     repo: 'https://github.com/dantup01/instadans',
+  },
+  {
+    id: nanoid(),
+    img: 'screenshot-brewery288.jpg',
+    title: 'Brewery 288',
+    info: 'A local independent brewery in West Sussex have launched a collection of new beers. I built their e-commerce website to help them reach their customers.',
+    info2: '',
+    url: 'http://www.brewery288.co.uk',
+    repo: '',
   },
   {
     id: nanoid(),
