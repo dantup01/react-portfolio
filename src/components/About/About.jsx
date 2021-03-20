@@ -30,7 +30,7 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
-                <AboutImg alt="profile picture" filename={img} />
+                <AboutImg alt="profile picture" filename={img}/>
               </div>
             </Fade>
           </Col>
@@ -38,14 +38,13 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne || 'I’m a London-based web developer. My passion for tech has lead me to embark on a web development bootcamp at Le Wagon where I have been building solo and team projects. I love the creativity of putting your thoughts into applications.'}
+                  {paragraphOne || ''}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    'Working knowledge and experience of the following technologies: Ruby, Ruby on Rails, Python, Django, HTML, CSS, Bootstrap, JavaScript as well as working knowledge of databases such as PostgreSQL, and building RESTful APIs with node.js and express.'}
+                  {paragraphTwo || ''}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'I am currently advancing my skills in JavaScript, React and node.js.'}
+                  {paragraphThree || ''}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">

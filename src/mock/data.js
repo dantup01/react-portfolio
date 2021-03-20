@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'me.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'I’m a London-based web developer. My passion for tech has lead me to embark on a web development bootcamp at Le Wagon where I have been building solo and team projects on Rails. I love the creativity of painting your ideas into web applications.',
+  paragraphTwo: 'Working knowledge and experience of the following technologies: Ruby, Ruby on Rails, Python, Django, HTML, CSS, Bootstrap, JavaScript as well as use of databases such as PostgreSQL, and building RESTful APIs with node.js and express.',
+  paragraphThree: 'I am currently advancing my skills in JavaScript, React and node.js. (This site is built using React!)',
   resume: 'https://drive.google.com/file/d/1z8oHuGNimwUWa_vL9lFXSS6e7JFa-UaM/view?usp=sharing',
 };
 
@@ -30,8 +30,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'screenshot-open-rehearsal-crop.jpg',
     title: 'Open Rehearsal',
-    info: 'A team rails app developed for musicians to connect, find local rehearsals and play the music they love.',
-    info2: '',
+    info: 'A team rails app developed for musicians to connect and find local rehearsals to play the music they love.',
+    info2: 'This was an insightful project that taught me the complex of databases and how important the correct validation of each model is vital for the backend functionality to operate smoothly for the user.',
     url: 'http://www.openrehearsal.co.uk',
     repo: 'https://github.com/dantup01/open-rehearsal',
   },
@@ -40,7 +40,7 @@ export const projectsData = [
     img: 'screenshot-garden-escape.png',
     title: 'Garden Escapes',
     info: 'A team rails app developed for the user to host or rent their favourite gardens.',
-    info2: '',
+    info2: 'This was a fun project where I learnt how to build a project as a team for the first time. Making branches on Github, reviewing team mates branches to merge onto the master branch.',
     url: 'http://garden-escape.herokuapp.com/',
     repo: 'https://github.com/dantup01/garden-escape',
   },
@@ -49,7 +49,7 @@ export const projectsData = [
     img: 'screenshot-instadans.jpg',
     title: 'InstaDans',
     info: 'A personal project creating a clone of Instagram for users to post pictures.',
-    info2: '',
+    info2: 'This was a solo project where I learnt how to apply user authentification and make a replica of Instagram!',
     url: 'https://instadans.herokuapp.com/',
     repo: 'https://github.com/dantup01/instadans',
   },
@@ -67,7 +67,7 @@ export const projectsData = [
     img: 'screenshot-cocktail-experience.png',
     title: 'Cocktail Experience',
     info: 'Solo rails app designed for the user to store a collection of their favourite cocktails.',
-    info2: '',
+    info2: 'This was one of my first rails app teaching me how to implement the CRUD actions to items in the database.',
     url: 'http://dans-cocktail-experience.herokuapp.com/',
     repo: 'https://github.com/dantup01/rails-cocktail-party',
   },
@@ -92,6 +92,11 @@ export const footerData = {
       id: nanoid(),
       name: 'github',
       url: 'http://www.github.com/dantup01',
+    },
+    {
+      id: nanoid(),
+      name: 'spotify',
+      url: 'https://open.spotify.com/user/216nca63kggjyv4khytyen2zi?si=WYDWxUNtRw-yq6uMys0oJQ',
     },
   ],
 };
