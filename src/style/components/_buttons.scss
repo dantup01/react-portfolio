@@ -19,6 +19,10 @@
     z-index: -1;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
   }
+
+  &:hover {
+    color: #fe5f55;
+  }
 }
 
 /* Hero Style */
@@ -31,29 +35,16 @@
   border-image: linear-gradient(135deg, #272341 0%, #272341 100%);
   border-image-slice: 1;
   cursor: pointer;
-  // Responsive Button hero style
-  @include respond(phone) {
-    background-image: linear-gradient(135deg, #fe5f55 0%, #fe5f55 100%);
-    border: 2px solid #272341;
-    -webkit-text-fill-color: $white-color;
-  }
 
   &::after {
-    background-image: linear-gradient(135deg, #fe5f55 0%, #fe5f55 100%);
-    // Responsive Button hero style
-    @include respond(phone) {
-      background-image: linear-gradient(135deg, #fe5f55 0%, #fe5f55 100%);
-    }
+    border: #fe5f55;
+    background: #fe5f55;
   }
 
   &:hover {
     border: 2px solid #fe5f55;
     -webkit-text-fill-color: $white-color;
     text-decoration: none;
-    // Responsive Button hover hero style
-    @include respond(phone) {
-      -webkit-text-fill-color: $white-color;
-    }
 
     &::after {
       width: 100%;
