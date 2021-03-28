@@ -33,21 +33,21 @@
   cursor: pointer;
   // Responsive Button hero style
   @include respond(phone) {
-    background-image: none;
+    background-image: linear-gradient(135deg, #fe5f55 0%, #fe5f55 100%);
     border: 2px solid #272341;
     -webkit-text-fill-color: #272341;
   }
 
   &::after {
-    background-image: linear-gradient(135deg, #FE5F55 0%, #FE5F55 100%);
+    background-image: linear-gradient(135deg, #fe5f55 0%, #fe5f55 100%);
     // Responsive Button hero style
     @include respond(phone) {
-      background-image: none;
+      background-image: linear-gradient(135deg, #fe5f55 0%, #fe5f55 100%);
     }
   }
 
   &:hover {
-    border: 2px solid #FE5F55;
+    border: 2px solid #fe5f55;
     -webkit-text-fill-color: $white-color;
     text-decoration: none;
     // Responsive Button hover hero style
@@ -67,11 +67,11 @@
   border: 2px solid $white-color;
 
   &::after {
-    background: #FE5F55;
+    background: #fe5f55;
   }
 
   &:hover {
-    border: 2px solid #FE5F55;
+    border: 2px solid #fe5f55;
     color: $white-color;
     text-decoration: none;
 
