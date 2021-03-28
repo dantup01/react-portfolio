@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'Open Rehearsal',
     info: 'A team rails app developed for musicians to connect and find local rehearsals to play the music they love.',
     info2: 'This was an insightful project that taught me the complex of databases and how important the correct validation of each model is vital for the backend functionality to operate smoothly for the user.',
-    url: 'http://www.openrehearsal.co.uk',
+    url: 'http://www.openrehearsal.co.uk/',
     repo: 'https://github.com/dantup01/open-rehearsal',
   },
   {
